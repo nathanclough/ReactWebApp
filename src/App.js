@@ -1,24 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from './Bin/Cat.jpg';
+import './Styles/App.css';
+import Burger from './Components/Burgerbar';
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <div className="App" >
+        <Burger/>
+          <header className="App-header">
+            <img src={logo} className="App-cat" alt="logo" />
+            <p>
+              This is my cat shadow
+            </p>
+          </header>  
+      </div>
   );
 }
 
